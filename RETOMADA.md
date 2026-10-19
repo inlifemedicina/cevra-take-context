@@ -45,13 +45,16 @@ somente para os itens e a tomada efetivamente exercitados.
 ## Manutenção econômica aprovada
 
 Registrar somente decisões importantes, fechamentos de bloco e novas pendências.
-Cada registro deve ser curto: data, decisão ou resultado, referência da evidência
-e próximo passo. Atualizar o documento responsável, evitando duplicar a conversa.
+Cada registro deve ser curto: data, mudança/decisão e motivo, evidência ou commit,
+próximo passo e quando revalidar. Revalidar só por mudança relevante de fonte/
+versão/ambiente, falha nova ou evidência incerta, nunca só por reset.
+Atualizar o documento responsável, evitando duplicar a conversa.
 
 Consolidar semanalmente de forma incremental, incorporando apenas os registros
 novos e mudanças de estado. Na retomada após reset, ler o resumo inicial
 `LEIA_PRIMEIRO` e consultar detalhes sob demanda. Se o reset ocorrer antes da
-consolidação semanal, fazer uma consolidação final curta antes dele.
+consolidação semanal, consolidar só os deltas antes dele. Leitura integral do
+histórico não é obrigatória na retomada rotineira.
 
 Essa política não cria uma automação: nenhum agendamento foi configurado nesta
 preparação única. Código e backups continuam separados do contexto. Atualizações
